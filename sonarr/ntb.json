@@ -1,0 +1,19 @@
+{
+  "trash_id": "585dc4d5a78f61c745f8461c72145a05",
+  "trash_scores": {
+    "default": 51
+  },
+  "name": "NTb",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "NTb",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "^NTb$"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "trash_id": "22b3770829278185537e2723c7850e6c",
+  "trash_scores": {
+    "default": 100
+  },
+  "name": "UHD",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "UHD",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\bUHD\\b"
+      }
+    }
+  ]
+}

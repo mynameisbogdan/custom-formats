@@ -1,0 +1,19 @@
+{
+  "trash_id": "00e9787f7fcf42ca39f8e246ad80d025",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Scene Release",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Scene",
+      "implementation": "IndexerFlagSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 128
+      }
+    }
+  ]
+}

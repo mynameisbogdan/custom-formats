@@ -1,0 +1,46 @@
+{
+  "trash_id": "1d18b08a943e943e7b4f16aa3114383a",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "LQ (Personal WEB)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "APEX",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "^APEX$"
+      }
+    },
+    {
+      "name": "Kitsune",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "^Kitsune$"
+      }
+    },
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    }
+  ]
+}
